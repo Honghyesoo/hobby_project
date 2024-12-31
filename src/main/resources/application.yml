@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: hobby
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hobby?serverTimezone=UTC&characterEncoding=UTF-8
+    username: home
+    password: 1245
+
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
